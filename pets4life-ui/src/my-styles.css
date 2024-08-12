@@ -1,0 +1,65 @@
+/* Change the background color of the pagination container */
+
+
+/* Change the color of page numbers, previous, and next buttons */
+.page-item,
+.page-link {
+  color: #ffbd58;
+}
+
+/* Change the color of previous and next buttons when hovered */
+.page-item:hover .page-link {
+  background-color: #ffbd58;
+  color: #fff;
+}
+
+ .active{
+  background-color: #ffbd58;
+
+}
+
+
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #ffbd58;
+  border-color: #ffbd58;
+}
+
+
+.page-item {
+  list-style: none;
+  padding: 2px 12px;
+  height: 31.5px;
+  width: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.pagination {
+  list-style: none;
+  height: 31.5px;
+  width: 31.5px;
+  align-items: center;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item:hover, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+  padding: .5rem 1rem;
+  margin: 0 .5rem;
+  display: block;
+  background-color: #000;
+  color: #ffbd58;
+  text-decoration: none;
+  border-radius: .35rem;
+  white-space: nowrap;
+}
+
+.body{
+  background-color: #fff;
+}
+
