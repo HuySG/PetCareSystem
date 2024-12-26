@@ -75,15 +75,6 @@ Instructions on how to use them in your own application are linked below.
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 
-
-
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
-
-
 ## Get Started
 
 ### *Registration*
